@@ -82,23 +82,19 @@ When user says things like:
 
 ## Configuration
 
-Aliases are stored in `scripts/aliases.json` (in the same directory as the scripts):
+Aliases are stored in `scripts/aliases.json` (automatically created in the skill directory):
 
 ```json
 {
-  "windows": {
-    "chrome": "Chrome:New Tab",
-    "code": "Code:project.js"
-  },
+  "windows": {},
   "screens": {
     "主屏": "1",
-    "副屏": "2",
-    "竖屏": "3"
+    "副屏": "2"
   }
 }
 ```
 
-This file is created automatically when you first set an alias. Since it's stored in the skill directory, your aliases will be backed up with your Git repository.
+The config file comes with default screen aliases (主屏=1, 副屏=2). Just edit this file or use the `alias_manager.sh` command to add your own aliases. Since it's stored in the skill directory, your aliases will be backed up with your Git repository.
 ```
 
 ## Scripts Reference

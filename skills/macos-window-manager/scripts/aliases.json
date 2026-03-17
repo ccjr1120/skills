@@ -1,0 +1,8 @@
+{
+  "windows": {},
+  "screens": {
+    "主屏": "1",
+    "副屏": "2"
+  },
+  "_comment": "Add your custom window and screen aliases here. Run ./alias_manager.sh for help."
+}
