@@ -82,7 +82,7 @@ When user says things like:
 
 ## Configuration
 
-Aliases are stored in `~/.config/macos-window-manager/aliases.json`:
+Aliases are stored in `scripts/aliases.json` (in the same directory as the scripts):
 
 ```json
 {
@@ -98,6 +98,9 @@ Aliases are stored in `~/.config/macos-window-manager/aliases.json`:
 }
 ```
 
+This file is created automatically when you first set an alias. Since it's stored in the skill directory, your aliases will be backed up with your Git repository.
+```
+
 ## Scripts Reference
 
 | Script | Purpose |
@@ -106,6 +109,7 @@ Aliases are stored in `~/.config/macos-window-manager/aliases.json`:
 | `list_screens.scpt` | List all connected screens |
 | `move_window.scpt` | Move window to screen |
 | `alias_manager.sh` | Manage window/screen aliases |
+| `aliases.json` | Stores window and screen aliases (auto-created) |
 
 ## Requirements
 

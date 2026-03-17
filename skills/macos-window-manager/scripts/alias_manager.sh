@@ -2,11 +2,9 @@
 # Window and Screen alias manager
 # Usage: alias_manager.sh [list|set-window|set-screen|remove-window|remove-screen|get-window|get-screen]
 
-CONFIG_DIR="${HOME}/.config/macos-window-manager"
-CONFIG_FILE="${CONFIG_DIR}/aliases.json"
-
-# Ensure config directory exists
-mkdir -p "$CONFIG_DIR"
+# Get the directory where this script is located
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+CONFIG_FILE="${SCRIPT_DIR}/aliases.json"
 
 # Initialize config if not exists
 if [ ! -f "$CONFIG_FILE" ]; then
