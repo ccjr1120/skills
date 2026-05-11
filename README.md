@@ -12,4 +12,4 @@ npx skills add ccjr1120/skills -y -g
 
 | Skill | Description |
 |-------|-------------|
-| `emoji-commits` | Prefix commit messages with emoji based on conventional commit type |
+| `ccjr-emoji-commits` | Prefix commit messages with emoji based on conventional commit type |

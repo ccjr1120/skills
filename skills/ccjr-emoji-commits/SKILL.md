@@ -1,5 +1,5 @@
 ---
-name: emoji-commits
+name: ccjr-emoji-commits
 description: Emoji commit convention for AI-assisted commits. Use when committing code — automatically prefix the commit message with the correct emoji based on the conventional commit type.
 ---
 
